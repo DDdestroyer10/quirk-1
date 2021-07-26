@@ -61,7 +61,7 @@ const Feedback = () => (
     <SubHeader>*feedback</SubHeader>
     <Paragraph
       style={{
-        marginBottom: 16,
+        marginBottom: 18,
       }}
     >
       We take your feedback extremely seriously. The email below goes directly
@@ -69,7 +69,7 @@ const Feedback = () => (
     </Paragraph>
     <ActionButton
       flex={1}
-      title={"Email Feedback"}
+      title={"Email id Feedback"}
       fillColor="#EDF0FC"
       textColor={theme.darkBlue}
       style={{
@@ -92,10 +92,10 @@ const CancelationInstructions = () => {
       flex={1}
       title={"Cancellation Instructions"}
       fillColor="#EDF0FC"
-      textColor={theme.darkBlue}
+      textColor={theme.purple}
       style={{
-        borderWidth: 0,
-        borderBottomWidth: 0,
+        borderWidth: 0.1,
+        borderBottomWidth: 0.2,
       }}
       onPress={() => {
         if (Platform.OS === "android") {
